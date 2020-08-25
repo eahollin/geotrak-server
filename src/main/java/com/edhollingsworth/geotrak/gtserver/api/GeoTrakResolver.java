@@ -118,7 +118,7 @@ public class GeoTrakResolver implements InitializingBean {
 	 * constructor.
 	 */
 	private void initializePublisher() {
-		initializePublisher(10); // send default value
+		initializePublisher(0); // send default value
 	}
 	private void initializePublisher(int cacheSize) {
 		// Register an anonymous GeoTrakListener implementation
